@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 30px 0 !important;
+}
+
+.titleWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.percen {
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 40px;
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+@media (max-width: 960px){
+    .chart{
+        width: 45% !important;
+        height: 70% !important;
+        display: block;
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 700px){
+    .chart{
+        width: 55% !important;
+        height: 75% !important;
+    }
+}
+
+@media (max-width: 510px){
+    .img{
+        display: none;
+    }
+    .chart{
+        width: 60% !important;
+        height: 80% !important;
+    }
+}
+
+@media (max-width: 430px){
+    .chart{
+        width: 65% !important;
+        height: 85% !important;
+    }
+}
